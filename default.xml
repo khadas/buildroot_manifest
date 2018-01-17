@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/khadas/" name="github"/>
+  <default remote="github" revision="refs/heads/buildroot" sync-j="4"/>
+
+  <project name="linux" path="kernel/aml-4.9" revision="buildroot-aml-4.9"/>
+  <project name="linux" path="kernel/aml-3.14" revision="buildroot-aml-3.14"/>
+  <project name="buildroot_vendor_broadcom_brcm-bsa" path="vendor/broadcom/brcm-bsa" revision="1a0adf239ee4efca9f4c0d1e8c2101080a1b961e"/>
+  <project name="buildroot_vendor_amlogic_chromium" path="vendor/amlogic/chromium" revision="ebe278cbf86d1208b492cd505cd26597680e4d46"/>
+  <project name="buildroot_vendor_amlogic_test_tools" path="vendor/amlogic/test_tools" revision="25b4979e7040fade9c9c8291d88a2ee210b368f1"/>
+  <project name="buildroot_hardware_tvin" path="hardware/tvin" revision="8c65191d4585a66f3b193e3761996077199bb22e"/>
+  <project name="buildroot_buildroot" path="buildroot" revision="10e17c4f3586bc1d1ed6504ef4ac9e51c0825d83">
+    <copyfile dest="Makefile" src="build/Makefile"/>
+  </project>
+  <project name="buildroot_multimedia" path="multimedia" revision="e0b06a9126864c1e10fc01c05bc7c7d8f07949ce"/>
+  <project name="buildroot_multimedia_gst-aml-plugins" path="multimedia/gst-aml-plugins" revision="c7c176679e498ad8493d9d8c6653b63fa36d7238"/>
+  <project name="buildroot_multimedia_gst-aml-plugins1" path="multimedia/gst-aml-plugins1" revision="b64e6e98e7a6e26ab71b2ac15eb40285f18656c4"/>
+  <project name="buildroot_hardware_aml-4.9_amlogic_media_modules" path="hardware/aml-4.9/amlogic/media_modules" revision="3ca1f7d74b76f8ea363230b3f4f4729b622a5c22"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_nand" path="hardware/aml-3.14/amlogic/nand" revision="4305d9538be154fd27ca025f7ec5c5363a4e793e"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_pmu" path="hardware/aml-3.14/amlogic/pmu" revision="97738d04cd4155f62a2a3a794a24c8a23a745d6e"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_thermal" path="hardware/aml-3.14/amlogic/thermal" revision="cdeae3e8b6e70fed6ecf365b48a4cf899436a377"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_touch" path="hardware/aml-3.14/amlogic/touch" revision="f432bdc3c2f4804f97dbfa77b7e92fcec6133880"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_wifi" path="hardware/aml-4.9/amlogic/wifi" revision="50c463b5e6bab08a4335b12b3462defcdd32805c"/>
+  <project name="buildroot_hardware_aml-3.14_amlogic_wifi" path="hardware/aml-3.14/amlogic/wifi" revision="50c463b5e6bab08a4335b12b3462defcdd32805c"/>
+  <project name="buildroot_hardware_aml-3.14_arm_gpu" path="hardware/aml-4.9/arm/gpu" revision="e0f58379ee32c96a38a9933ac1bb5cb2bab4c4f3"/>
+  <project name="buildroot_hardware_aml-3.14_arm_gpu" path="hardware/aml-3.14/arm/gpu" revision="e0f58379ee32c96a38a9933ac1bb5cb2bab4c4f3"/>
+  <project name="buildroot_hardware_aml-3.14_wifi_broadcom_drivers_ap6xxx" path="hardware/aml-4.9/wifi/broadcom/drivers/ap6xxx" revision="e410b9e03bb55733f5cf202db08a78e32afbb48b"/>
+  <project name="buildroot_hardware_aml-3.14_wifi_broadcom_drivers_ap6xxx" path="hardware/aml-3.14/wifi/broadcom/drivers/ap6xxx" revision="e410b9e03bb55733f5cf202db08a78e32afbb48b"/>
+  <project name="buildroot_hardware_aml-3.14_wifi_broadcom_drivers_usi" path="hardware/aml-3.14/wifi/broadcom/drivers/usi" revision="583b48637f6abfe13074075d7af734cfe0e4f185"/>
+  <project name="buildroot_multimedia_libplayer_src" path="multimedia/libplayer/src" revision="ec3cf8ae7bdaa9df4fcaf779c62120dfbea8d43d"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_aarch64_gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-5.3-2016.02-x86_64_aarch64-linux-gnu" revision="49e784319bcac40e40c4e115ed04e4d2c6b3071c"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_aarch64_gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.2.1-2016.11-x86_64_aarch64-linux-gnu" revision="972c7162781947f8aa3fbebd27db888bd8429119"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.02-x86_64_aarch64-linux-gnu" revision="0bf3bc2500c1e5141bf3cd97789e2c57f51cc631"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_aarch64_gcc-linaro-aarch64-linux-gnu-4.9" path="toolchain/gcc/linux-x86/aarch64/gcc-linaro-aarch64-linux-gnu-4.9" revision="7c3e394f70c9b2161d561c386572f1d6be21259f"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_arc_arc-4.8.5" path="toolchain/gcc/linux-x86/arc/arc-4.8.5" revision="b346ef6656e43de5cff227b2271b67a13c8e12dc"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_arm_Sourcery_Gpp_Lite-2010q1" path="toolchain/gcc/linux-x86/arm/Sourcery_G++_Lite-2010q1" revision="1bccaf02cd248c8d4c9c644caba1e9bc9fb6e98e"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" revision="b992d5a7a2f96946dff97d8c1431e2727f52199e"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" revision="32a934c7f728290fd4f08bf415d0cd451aaf4724"/>
+  <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-arm-linux-gnueabihf-4.9" path="toolchain/gcc/linux-x86/arm/gcc-linaro-arm-linux-gnueabihf-4.9" revision="c95a4ecf59622c87daa4b812e278e294ea2f562f"/>
+  <project name="u-boot" path="bootloader/uboot-2015-dev" revision="b3c8a29fe1faf04010398d49d51488f103250cb7"/>
+  <project name="buildroot_vendor_amlogic_dvb" path="vendor/amlogic/dvb" revision="ff868d9637f05dbb162b182dca1d07ccb2222d27"/>
+  <project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum" revision="c7d8e32962b3dfca58d6051fb202da4b98df2854"/>
+</manifest>
