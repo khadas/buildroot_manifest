@@ -37,7 +37,7 @@
   <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.2.1-2016.11-x86_64_arm-linux-gnueabihf" revision="b992d5a7a2f96946dff97d8c1431e2727f52199e"/>
   <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" path="toolchain/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.02-x86_64_arm-linux-gnueabihf" revision="32a934c7f728290fd4f08bf415d0cd451aaf4724"/>
   <project name="buildroot_toolchain_gcc_linux-x86_arm_gcc-linaro-arm-linux-gnueabihf-4.9" path="toolchain/gcc/linux-x86/arm/gcc-linaro-arm-linux-gnueabihf-4.9" revision="c95a4ecf59622c87daa4b812e278e294ea2f562f"/>
-  <project name="u-boot" path="bootloader/uboot-2015-dev" revision="b3c8a29fe1faf04010398d49d51488f103250cb7"/>
+  <project name="u-boot" path="bootloader/uboot-2015-dev" revision="879772bd9eedac7c49080bcc4678c558c47540c2"/>
   <project name="buildroot_vendor_amlogic_dvb" path="vendor/amlogic/dvb" revision="ff868d9637f05dbb162b182dca1d07ccb2222d27"/>
   <project name="buildroot_vendor_amlogic_external_platinum" path="vendor/amlogic/external/platinum" revision="c7d8e32962b3dfca58d6051fb202da4b98df2854"/>
 </manifest>
